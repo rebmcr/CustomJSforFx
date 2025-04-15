@@ -114,6 +114,9 @@ var AddAddonbar = {
 			border: none!important;
 			height: 26px!important;
 		  }
+		  #statuspanel {
+            transition: none!important;
+	      }
 		  `+compact_buttons_code+`
 	  `), null, null),
 	  Components.classes['@mozilla.org/content/style-sheet-service;1'].getService(Components.interfaces.nsIStyleSheetService).AGENT_SHEET
